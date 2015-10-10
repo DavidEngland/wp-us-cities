@@ -1,0 +1,38 @@
+div.wp-city-container {
+    /*display: inline-block;*/
+    width: 100%;
+    /*font-family: sans-serif;*/
+}
+
+div.wp-city-output {
+    display: none;
+    position: absolute;
+    /*position: relative;*/
+    /*top: 0;*/
+    z-index: 999999;
+    border: 1px solid #CCC;
+    background: white;
+}
+
+div.wp-city-output img {
+    padding: 0.500rem;
+}
+
+div.wp-city-item {
+    cursor: default;
+    padding: 0.500rem;
+    /*font-size: 0.800rem;*/
+}
+
+div.wp-city-item[hovered="true"],
+div.wp-city-item:hover {
+    background: #F5F5F5;
+}
+
+div.wp-city-notfound {
+    width: 100%;
+    text-align: center;
+    /*font-size: 0.800rem;*/
+    padding: 0.500rem 0;
+    color: #CCC;
+}
