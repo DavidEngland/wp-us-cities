@@ -80,7 +80,7 @@ function wp_us_cities_create_rewrite_rules($rules){
 }
 
 function wp_us_cities_add_query_vars($qvars) {
-    $qvars = array('location-search','search-city');
+    $qvars[] = array('location-search','search-city');
     return $qvars;
 }
 
